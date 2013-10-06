@@ -1,0 +1,163 @@
+@CHARSET "ISO-8859-1";
+
+html,body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: verdana, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: black;
+}
+
+ul,ol,li {
+	margin: 1px 1px 1px 7px;
+	padding: 0 0 0 2px;
+}
+
+input,textarea {
+	border: 1px solid grey;
+	font-size: 10px;
+}
+
+img {
+	border: 0;
+}
+
+body {
+	background-color: #0066cc;
+	background-image: url(pix/background.jpg);
+	background-repeat: repeat-x;
+}
+
+div#page {
+	width: 800px;
+	margin: auto;
+	min-height: 100%;
+	background-color: #fff;
+}
+
+div#header {
+	width: 100%;
+	height: 150px;
+	background-image: url(pix/head1.jpg);
+	background-repeat: no-repeat;
+	color: white;
+	margin-bottom: 3em;
+	font-size: 200%;
+	color: white;
+}
+
+div#title {
+	padding-top: 3em;
+	padding-left: 2em;
+}
+
+div#title a {
+	color: white;
+	text-decoration: none;
+}
+
+div#left {
+	width: 160px;
+	float: left;
+	padding: 5px;
+	font-weight: bold;
+}
+
+div#content {
+	margin: 10px 10px 10px 165px;
+	width: 590px;
+	padding: 0;
+}
+
+div#subhead {
+	width: 100%;
+	text-align: center;
+	font-size: 170%;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+
+div#breadcrumb {
+	width: 100%;
+	padding-left: 1em;
+	margin-bottom: 2em;
+}
+
+div#breadcrumb a {
+	text-decoration: none;
+	color: black;
+}
+
+div#breadcrumb a:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+div#footer {
+	text-align: center;
+	clear: both;
+	margin-top: 3em;
+	margin-left: 100px;
+	width: 600px;
+	margin-left: 100px;
+}
+
+.contenttable {
+	width: 90%;
+	margin: auto;
+	border: 1px solid silver;
+}
+
+.contenttable .tabtitle {
+	font-size: 120%;
+}
+
+.contenttable .tabhead {
+	font-weight: bold;
+}
+
+.contenttable td {
+	padding-left: 1ex;
+	vertical-align: text-top;
+}
+
+.lightgrey {
+	background-color: #eee;
+}
+
+.lightgrey.error {
+	background-color: #FFBFBF;
+}
+
+.lightgrey.warning {
+	background-color: #FFE6BF;
+}
+
+.hover:hover {
+	background-color: #ddf;
+}
+
+.darkgrey {
+	background-color: #dddddd;
+}
+
+.darkgrey.error {
+	background-color: #FF8080;
+}
+
+.darkgrey.warning {
+	background-color: #FFCC80;
+}
+
+.menu:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+.menu {
+	text-decoration: none;
+	color: #225;
+}

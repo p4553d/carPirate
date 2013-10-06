@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service name="autoscout24.de">
+<period>1500</period>
+<extract>
+	<regex name="title" group="1">
+		<![CDATA[<[Hh]1 class="caption">\s*(.*?)\s*</[Hh]1>]]>
+		<prefix>
+			<![CDATA[]]>
+		</prefix>
+		<postfix>
+			<![CDATA[]]>
+		</postfix>
+	</regex>
+	<regex name="price" group="1">
+		<![CDATA[price=([\d]*?)&amp;]]>
+		<prefix>
+			<![CDATA[]]>
+		</prefix>
+		<postfix>
+			<![CDATA[]]>
+		</postfix>
+	</regex>
+	<regex name="image" group="1">
+		<![CDATA[bildurl=(.*?)&amp;]]>
+		<prefix>
+			<![CDATA[]]>
+		</prefix>
+		<postfix>
+			<![CDATA[]]>
+		</postfix>
+	</regex>
+	<regex name="descr" group="1">
+		<![CDATA[<div class="equipment-list">\s*(.*?</div>.*?</div>)\s*</div]]>
+		<prefix/>
+		<postfix/>
+	</regex>
+	<regex name="address" group="1">
+		<![CDATA[class="contact-person">(.*?)<div class="contact]]>
+		<prefix/>
+		<postfix/>
+	</regex>
+	<regex name="year" group="1">
+		<![CDATA[Baujahr:\s*((\d\d/)?\d\d\d\d)(\s|,)]]>
+		<prefix>
+			<![CDATA[]]>
+		</prefix>
+		<postfix>
+			<![CDATA[]]>
+		</postfix>
+	</regex>
+	<regex name="mileage" group="1">
+		<![CDATA[mileage=(\d*?)&amp;]]>
+		<prefix>
+			<![CDATA[]]>
+		</prefix>
+		<postfix>
+			<![CDATA[]]>
+		</postfix>
+	</regex>
+	<regex name="fuel" group="1">
+		<![CDATA[Kraftstoff:\s*(.*?)(\s|,)]]>
+		<prefix>
+			<![CDATA[]]>
+		</prefix>
+		<postfix>
+			<![CDATA[]]>
+		</postfix>
+	</regex>
+	<regex name="power" group="1">
+		<![CDATA[kw=(\d*)&amp;]]>
+		<prefix>
+			<![CDATA[]]>
+		</prefix>
+		<postfix>
+			<![CDATA[ kW]]>
+		</postfix>
+	</regex>
+</extract>
+<parse>
+	<regex>
+		<![CDATA[cars\[.*?\]=new\sCar\('(.*?)','.*?','(.*?)\?(.*?)']]>
+	</regex>
+	<url group="2">
+		<prefix>
+			<![CDATA[]]>
+		</prefix>
+		<postfix>
+			<![CDATA[]]>
+		</postfix>
+	</url>
+	<get group="3">
+		<prefix>
+			<![CDATA[]]>
+		</prefix>
+		<postfix>
+			<![CDATA[]]>
+		</postfix>
+	</get>
+	<hash group="1">
+		<prefix>
+			<![CDATA[]]>
+		</prefix>
+		<postfix>
+			<![CDATA[]]>
+		</postfix>
+	</hash>
+</parse>
+</service>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gui.out version="10201">
+	<lookandfeel>org.jvnet.substance.skin.SubstanceBusinessBlackSteelLookAndFeel</lookandfeel>
+	<language>de</language>
+	<size width="621" height="460" />
+	<table>
+	<column name="title" width="65" />
+		<column name="price" width="65" />
+		<column name="power" width="65" />
+		<column name="mileage" width="65" />
+		<column name="year" width="65" />
+		<column name="fuel" width="65" />
+		<column name="source" width="65" />
+	</table>
+</gui.out>

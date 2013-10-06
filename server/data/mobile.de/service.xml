@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service name="mobile.de">
+<period>1500</period>
+<extract>
+	<regex name="title" group="1">
+		<![CDATA[<h1>\s*(.*?)\s*</h1>]]>
+		<prefix>
+			<![CDATA[]]>
+		</prefix>
+		<postfix>
+			<![CDATA[]]>
+		</postfix>
+	</regex>
+	<regex name="price" group="1">
+		<![CDATA[<span id="buyerpricegross" [^>]*>\s*(.*?) EUR\s*</span]]>
+		<prefix>
+			<![CDATA[]]>
+		</prefix>
+		<postfix>
+			<![CDATA[]]>
+		</postfix>
+	</regex>
+	<regex name="image" group="1">
+		<![CDATA[<img\sid="currentImage"\ssrc="(.*?\.JPG)"]]>
+		<prefix>
+			<![CDATA[]]>
+		</prefix>
+		<postfix>
+			<![CDATA[]]>
+		</postfix>
+	</regex>
+	<regex name="descr" group="1">
+		<![CDATA[<h3>Ausstattung</h3>\s*<div[^>]*>(.*?)</div>]]>
+		<prefix/>
+		<postfix/>
+	</regex>
+	<regex name="address" group="1">
+		<![CDATA[<div class="desDetailColumn contact">\s*(<div.*?/div>\s*<div.*?/div>)]]>
+		<prefix/>
+		<postfix/>
+	</regex>
+	<regex name="year" group="1">
+		<![CDATA[EZ (\d\d/\d\d\d\d)]]>
+		<prefix>
+			<![CDATA[]]>
+		</prefix>
+		<postfix>
+			<![CDATA[]]>
+		</postfix>
+	</regex>
+	<regex name="mileage" group="1">
+		<![CDATA[([\d.]*)&nbsp;km]]>
+		<prefix>
+			<![CDATA[]]>
+		</prefix>
+		<postfix>
+			<![CDATA[ km]]>
+		</postfix>
+	</regex>
+	<regex name="fuel" group="1">
+		<![CDATA[(Diesel|Benzin|Gas)]]>
+		<prefix>
+			<![CDATA[]]>
+		</prefix>
+		<postfix>
+			<![CDATA[]]>
+		</postfix>
+	</regex>
+	<regex name="power" group="1">
+		<![CDATA[(\d*?\skW)]]>
+		<prefix>
+			<![CDATA[]]>
+		</prefix>
+		<postfix>
+			<![CDATA[]]>
+		</postfix>
+	</regex>
+</extract>
+<parse>
+	<regex><![CDATA[<a\s+href="(http://suchen.mobile.de/fahrzeuge/showDetails.html\?id=(\d+).*?)"]]></regex>
+	<url group="1">
+		<prefix>
+			<![CDATA[]]>
+		</prefix>
+		<postfix>
+			<![CDATA[]]>
+		</postfix>
+	</url>
+	<hash group="2">
+		<prefix/>
+		<postfix/>
+	</hash>
+</parse>
+</service>

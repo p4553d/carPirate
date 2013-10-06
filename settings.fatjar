@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Sun Jan 17 20:24:48 CET 2010
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=server\\download\\crawler_original.jar
+manifest.mergeall=true
+manifest.mainclass=core.crawler
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=<po|crawler>~core/~config/~config.xml;<po|crawler>~crawlerTestSuite/;<po|crawler>~gui/~gui.in.xml;<po|crawler>~p2p/;<jar|junit.jar>
+includes=

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config id="development-0.10.1" version="10101"> 
+	<server host="http://www.carpirate.de/generate/" />
+</config>

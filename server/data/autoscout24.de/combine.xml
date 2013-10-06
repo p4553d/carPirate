@@ -1,0 +1,1915 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<combine>
+	<host><![CDATA[autoscout24.de]]></host>
+	<url><![CDATA[http://www.autoscout24.de/List.aspx]]></url>
+	<prefix><![CDATA[vis=1&state=A&cy=D&page=1&maxresults=500&results=20&ustate=N&ustate=U&um=True&sort=age&rfde=True&pool=9&zipc=D&]]></prefix>
+	<period><![CDATA[15000]]></period>
+	<search>
+		<makemodeldata>
+			<make key="AC" value="make=14979">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Cobra" value="model=14984" />
+			</make>
+			<make key="Acura" value="make=16356">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="MDX" value="model=18451" />
+				<model key="NSX" value="model=18450" />
+				<model key="RL" value="model=18446" />
+				<model key="RSX" value="model=18449" />
+				<model key="TL" value="model=18447" />
+				<model key="TSX" value="model=18448" />
+			</make>
+			<make key="AlfaRomeo" value="make=6">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="145" value="model=1601" />
+				<model key="146" value="model=1602" />
+				<model key="147" value="model=16421" />
+				<model key="155" value="model=1603" />
+				<model key="156" value="model=15117" />
+				<model key="159" value="model=18681" />
+				<model key="164" value="model=1604" />
+				<model key="166" value="model=15636" />
+				<model key="33" value="model=1600" />
+				<model key="75" value="model=1606" />
+				<model key="90" value="model=1607" />
+				<model key="Alfasud" value="model=1608" />
+				<model key="Alfetta" value="model=1609" />
+				<model key="Brera" value="model=18581" />
+				<model key="Giulia" value="model=18553" />
+				<model key="Giulietta" value="model=1611" />
+				<model key="GT" value="model=18412" />
+				<model key="GTV" value="model=1612" />
+				<model key="RZ" value="model=16628" />
+				<model key="Spider" value="model=1614" />
+				<model key="Sportwagon" value="model=18907" />
+				<model key="Sprint" value="model=18631" />
+			</make>
+			<make key="Asia" value="make=15671">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Rocsta" value="model=15979" />
+			</make>
+			<make key="AstonMartin" value="make=8">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="AR1" value="model=18469" />
+				<model key="DB" value="model=16382" />
+				<model key="DB7" value="model=1615" />
+				<model key="DB9" value="model=18517" />
+				<model key="Lagonda" value="model=1616" />
+				<model key="V12 Vanquish" value="model=18261" />
+				<model key="V8" value="model=15119" />
+				<model key="Vantage" value="model=15120" />
+				<model key="Virage" value="model=1617" />
+				<model key="Volante" value="model=15540" />
+			</make>
+			<make key="Audi" value="make=9">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="100" value="model=1619" />
+				<model key="200" value="model=1620" />
+				<model key="80" value="model=1622" />
+				<model key="90" value="model=1623" />
+				<model key="A2" value="model=16416" />
+				<model key="A3" value="model=1624" />
+				<model key="A4" value="model=1626" />
+				<model key="A5" value="model=19047" />
+				<model key="A6" value="model=1628" />
+				<model key="A8" value="model=1629" />
+				<model key="Allroad" value="model=16414" />
+				<model key="Cabriolet" value="model=1630" />
+				<model key="Coupe" value="model=1631" />
+				<model key="Q7" value="model=18683" />
+				<model key="QUATTRO" value="model=18000" />
+				<model key="R8" value="model=18925" />
+				<model key="RS" value="model=15735" />
+				<model key="S2" value="model=2109" />
+				<model key="S3" value="model=15637" />
+				<model key="S4" value="model=2108" />
+				<model key="S5" value="model=19048" />
+				<model key="S6" value="model=1633" />
+				<model key="S8" value="model=15123" />
+				<model key="TT" value="model=15627" />
+				<model key="V8" value="model=1634" />
+			</make>
+			<make key="Austin" value="make=15643">
+				<!--mobile unterstütz keine modelleabfrage-->
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Estate" value="model=18618" />
+				<model key="Maestro" value="model=15806" />
+				<model key="Metro" value="model=15807" />
+				<model key="MK" value="model=16383" />
+				<model key="Montego" value="model=16453" />
+			</make>
+			<make key="BMW" value="make=13">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="125" value="model=19084" />
+				<model key="1er (alle)" value="model=-37" />
+				<model key="116" value="model=18480" />
+				<model key="118" value="model=18481" />
+				<model key="120" value="model=18482" />
+				<model key="130" value="model=18588" />
+				<model key="135" value="model=19079" />
+				<model key="3er (alle)" value="model=-38" />
+				<model key="315" value="model=16558" />
+				<model key="316" value="model=1639" />
+				<model key="318" value="model=1640" />
+				<model key="320" value="model=1641" />
+				<model key="323" value="model=1642" />
+				<model key="324" value="model=1643" />
+				<model key="325" value="model=1644" />
+				<model key="328" value="model=1645" />
+				<model key="330" value="model=15779" />
+				<model key="335" value="model=18805" />
+				<model key="5er (alle)" value="model=-39" />
+				<model key="518" value="model=1647" />
+				<model key="520" value="model=1648" />
+				<model key="523" value="model=1649" />
+				<model key="524" value="model=1650" />
+				<model key="525" value="model=1651" />
+				<model key="528" value="model=2145" />
+				<model key="530" value="model=1652" />
+				<model key="535" value="model=1653" />
+				<model key="540" value="model=1654" />
+				<model key="545" value="model=18383" />
+				<model key="550" value="model=18710" />
+				<model key="6er (alle)" value="model=-40" />
+				<model key="628" value="model=15780" />
+				<model key="630" value="model=18491" />
+				<model key="633" value="model=16436" />
+				<model key="635" value="model=1656" />
+				<model key="645" value="model=18400" />
+				<model key="650" value="model=18709" />
+				<model key="7er (alle)" value="model=-41" />
+				<model key="725" value="model=1657" />
+				<model key="728" value="model=1658" />
+				<model key="730" value="model=1659" />
+				<model key="732" value="model=15953" />
+				<model key="735" value="model=1660" />
+				<model key="740" value="model=1661" />
+				<model key="745" value="model=16598" />
+				<model key="750" value="model=1662" />
+				<model key="760" value="model=18327" />
+				<model key="8er (alle)" value="model=-42" />
+				<model key="840" value="model=1663" />
+				<model key="850" value="model=1664" />
+				<model key="M-Reihe (alle)" value="model=-43" />
+				<model key="M1" value="model=1667" />
+				<model key="M3" value="model=1646" />
+				<model key="M5" value="model=1655" />
+				<model key="M6" value="model=18577" />
+				<model key="X-Reihe (alle)" value="model=-44" />
+				<model key="X3" value="model=18387" />
+				<model key="X5" value="model=16406" />
+				<model key="Z-Reihe (alle)" value="model=-45" />
+				<model key="Z1" value="model=1666" />
+				<model key="Z3" value="model=1665" />
+				<model key="Z4" value="model=18308" />
+				<model key="Z8" value="model=16402" />
+			</make>
+			<make key="BMWAlpina" value="make=14">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="B10" value="model=15131" />
+				<model key="B12" value="model=15132" />
+				<model key="B3" value="model=15130" />
+				<model key="B5" value="model=18601" />
+				<model key="B6" value="model=15682" />
+				<model key="B7" value="model=18346" />
+				<model key="B8" value="model=15711" />
+				<model key="D10" value="model=16435" />
+				<model key="D3" value="model=18717" />
+				<model key="Roadster S" value="model=18544" />
+			</make>
+			<make key="Bentley" value="make=11">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Arnage" value="model=15685" />
+				<model key="Azure" value="model=15128" />
+				<model key="Brooklands" value="model=15125" />
+				<model key="Continental" value="model=15127" />
+				<model key="Eight" value="model=15954" />
+				<model key="Mulsanne" value="model=18402" />
+				<model key="Turbo R" value="model=15683" />
+				<model key="Turbo RT" value="model=15126" />
+				<model key="Turbo S" value="model=15684" />
+			</make>
+			<make key="Brilliance" value="make=16367">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="BS2" value="model=19080" />
+				<model key="BS6" value="model=19081" />
+				<model key="Granse" value="model=18700" />
+				<model key="Jinbei" value="model=18699" />
+				<model key="Zhonghua" value="model=18702" />
+				<model key="Zunchi" value="model=18701" />
+			</make>
+			<make key="Bugatti" value="make=15">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="EB 110" value="model=15677" />
+				<model key="Veyron" value="model=18843" />
+			</make>
+			<make key="Buick" value="make=16">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Century" value="model=1668" />
+				<model key="Electra" value="model=1669" />
+				<model key="Enclave" value="model=19058" />
+				<model key="Le Sabre" value="model=18523" />
+				<model key="Park Avenue" value="model=1670" />
+				<model key="Regal" value="model=1671" />
+				<model key="Riviera" value="model=1672" />
+				<model key="Roadmaster" value="model=15771" />
+				<model key="Skylark" value="model=1673" />
+			</make>
+			<make key="Cadillac" value="make=17">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Allante" value="model=1674" />
+				<model key="BLS" value="model=18602" />
+				<model key="CTS" value="model=18405" />
+				<model key="Deville" value="model=1675" />
+				<model key="Eldorado" value="model=1676" />
+				<model key="Escalade" value="model=16399" />
+				<model key="Fleetwood" value="model=1677" />
+				<model key="Seville" value="model=1678" />
+				<model key="SRX" value="model=18495" />
+				<model key="STS" value="model=15853" />
+				<model key="XLR" value="model=18543" />
+			</make>
+			<make key="Caterham" value="make=16335">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="CATERHAM" value="model=16560" />
+			</make>
+			<make key="Chevrolet" value="make=19">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="2500" value="model=16379" />
+				<model key="Alero" value="model=15648" />
+				<model key="Astro" value="model=1679" />
+				<model key="Avalanche" value="model=18367" />
+				<model key="Aveo" value="model=18685" />
+				<model key="Beretta" value="model=1680" />
+				<model key="Blazer" value="model=1681" />
+				<model key="C1500" value="model=18516" />
+				<model key="Camaro" value="model=1683" />
+				<model key="Caprice" value="model=1684" />
+				<model key="Captiva" value="model=18789" />
+				<model key="Cavalier" value="model=1685" />
+				<model key="Celebrity" value="model=1687" />
+				<model key="Chevy Van" value="model=18420" />
+				<model key="Citation" value="model=1686" />
+				<model key="Corsica" value="model=1688" />
+				<model key="Corvette" value="model=1689" />
+				<model key="Crew cab" value="model=15738" />
+				<model key="Dixie van" value="model=15772" />
+				<model key="El Camino" value="model=18287" />
+				<model key="Epica" value="model=18790" />
+				<model key="Evanda" value="model=18572" />
+				<model key="G" value="model=15739" />
+				<model key="Impala" value="model=16455" />
+				<model key="K1500" value="model=15801" />
+				<model key="K30" value="model=15854" />
+				<model key="Kalos" value="model=18571" />
+				<model key="Lacetti" value="model=18573" />
+				<model key="Lumina" value="model=16456" />
+				<model key="Malibu" value="model=1690" />
+				<model key="Matiz" value="model=18569" />
+				<model key="Monte Carlo" value="model=16457" />
+				<model key="Niva" value="model=18719" />
+				<model key="Nubira" value="model=18574" />
+				<model key="Rezzo" value="model=18570" />
+				<model key="S-10" value="model=16378" />
+				<model key="Silverado" value="model=15983" />
+				<model key="SSR" value="model=18654" />
+				<model key="Suburban" value="model=16400" />
+				<model key="Tacuma" value="model=18673" />
+				<model key="Tahoe" value="model=15136" />
+				<model key="T-Blazer" value="model=1682" />
+				<model key="Trailblazer" value="model=16599" />
+				<model key="Trans Sport" value="model=15137" />
+				<model key="Uplander" value="model=18901" />
+			</make>
+			<make key="Chrysler" value="make=20">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="300 M" value="model=15139" />
+				<model key="300C" value="model=18497" />
+				<model key="Crossfire" value="model=18339" />
+				<model key="Daytona" value="model=1694" />
+				<model key="ES" value="model=1691" />
+				<model key="Grand Voyager" value="model=15140" />
+				<model key="GS" value="model=1693" />
+				<model key="GTS" value="model=1692" />
+				<model key="Le Baron" value="model=1695" />
+				<model key="Neon" value="model=1696" />
+				<model key="New Yorker" value="model=1697" />
+				<model key="Pacifica" value="model=18338" />
+				<model key="PT Cruiser" value="model=16420" />
+				<model key="Saratoga" value="model=1698" />
+				<model key="Sebring" value="model=2150" />
+				<model key="Stratus" value="model=1699" />
+				<model key="Valiant" value="model=14992" />
+				<model key="Viper" value="model=1700" />
+				<model key="Vision" value="model=1701" />
+				<model key="Voyager" value="model=1702" />
+			</make>
+			<make key="Citroen" value="make=21">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="2 CV 6" value="model=1703" />
+				<model key="Acadiane" value="model=18629" />
+				<model key="AX" value="model=1704" />
+				<model key="Berlingo" value="model=15142" />
+				<model key="BX" value="model=1705" />
+				<model key="C1" value="model=18651" />
+				<model key="C15" value="model=14811" />
+				<model key="C2" value="model=18373" />
+				<model key="C25" value="model=16458" />
+				<model key="C3" value="model=18264" />
+				<model key="C35" value="model=19062" />
+				<model key="C4" value="model=18545" />
+				<model key="C4 Grand Picasso" value="model=19027" />
+				<model key="C4 Picasso" value="model=18915" />
+				<model key="C5" value="model=16525" />
+				<model key="C6" value="model=18585" />
+				<model key="C8" value="model=18281" />
+				<model key="C-Crosser" value="model=19054" />
+				<model key="CX" value="model=1706" />
+				<model key="DS" value="model=15716" />
+				<model key="Evasion" value="model=1707" />
+				<model key="GSA" value="model=1708" />
+				<model key="Jumper" value="model=14710" />
+				<model key="Jumpy" value="model=16363" />
+				<model key="LNA" value="model=1709" />
+				<model key="SAXO" value="model=1710" />
+				<model key="SM" value="model=15717" />
+				<model key="Visa" value="model=15638" />
+				<model key="Xantia" value="model=1712" />
+				<model key="XM" value="model=1713" />
+				<model key="Xsara" value="model=14810" />
+				<model key="Xsara Picasso" value="model=15984" />
+				<model key="ZX" value="model=1714" />
+			</make>
+			<make key="Corvette" value="make=16375">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Convertible" value="model=18830" />
+				<model key="Coupe" value="model=18829" />
+				<model key="Z06" value="model=18831" />
+			</make>
+			<make key="Dacia" value="make=16360">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Berlina" value="model=18500" />
+				<model key="Break" value="model=18501" />
+				<model key="Double Cab" value="model=18503" />
+				<model key="Drop Side" value="model=18504" />
+				<model key="Logan" value="model=18498" />
+				<model key="Nova" value="model=18705" />
+				<model key="Pick Up" value="model=18502" />
+				<model key="Solenza" value="model=18499" />
+			</make>
+			<make key="Daewoo" value="make=22">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Aranos" value="model=15952" />
+				<model key="Espero" value="model=1715" />
+				<model key="Evanda" value="model=18360" />
+				<model key="Kalos" value="model=18291" />
+				<model key="Korando" value="model=18350" />
+				<model key="Lacetti" value="model=18436" />
+				<model key="Lanos" value="model=14996" />
+				<model key="Leganza" value="model=14998" />
+				<model key="Matiz" value="model=15644" />
+				<model key="Musso" value="model=18349" />
+				<model key="Nexia" value="model=1716" />
+				<model key="Nubira" value="model=14997" />
+				<model key="Rezzo" value="model=18348" />
+				<model key="Tacuma" value="model=16512" />
+				<model key="Truck Plus" value="model=18396" />
+			</make>
+			<make key="Daihatsu" value="make=23">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Applause" value="model=1717" />
+				<model key="Charade" value="model=1718" />
+				<model key="Charmant" value="model=1719" />
+				<model key="Copen" value="model=18426" />
+				<model key="Cuore" value="model=1720" />
+				<model key="Domino" value="model=18434" />
+				<model key="Extol" value="model=18811" />
+				<model key="Feroza" value="model=1721" />
+				<model key="Freeclimber" value="model=15741" />
+				<model key="Gran Move" value="model=15145" />
+				<model key="Hijet" value="model=2146" />
+				<model key="Materia" value="model=18924" />
+				<model key="Move" value="model=15144" />
+				<model key="Rocky" value="model=1722" />
+				<model key="Sirion" value="model=15639" />
+				<model key="Taft" value="model=1723" />
+				<model key="Terios" value="model=15146" />
+				<model key="Trevis" value="model=18897" />
+				<model key="Valera" value="model=16460" />
+				<model key="YRV" value="model=16588" />
+			</make>
+			<make key="DeTomaso" value="make=25">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Guarà" value="model=15158" />
+				<model key="Pantera" value="model=1724" />
+			</make>
+			<make key="Dodge" value="make=2152">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Avenger" value="model=19050" />
+				<model key="Caliber" value="model=18825" />
+				<model key="Charger" value="model=18693" />
+				<model key="Dakota" value="model=16401" />
+				<model key="Durango" value="model=15802" />
+				<model key="Grand Caravan" value="model=2155" />
+				<model key="Journey" value="model=19074" />
+				<model key="Magnum" value="model=18566" />
+				<model key="Neon" value="model=18567" />
+				<model key="Nitro" value="model=18916" />
+				<model key="RAM" value="model=15321" />
+				<model key="Stealth" value="model=2154" />
+				<model key="Stratus" value="model=18568" />
+				<model key="Van" value="model=15855" />
+				<model key="Viper" value="model=16450" />
+			</make>
+			<make key="Ferrari" value="make=27">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="195" value="model=16385" />
+				<model key="206" value="model=16559" />
+				<model key="208" value="model=15753" />
+				<model key="246" value="model=16386" />
+				<model key="250" value="model=15754" />
+				<model key="275" value="model=16387" />
+				<model key="288" value="model=15755" />
+				<model key="308" value="model=2116" />
+				<model key="328" value="model=1725" />
+				<model key="330" value="model=16388" />
+				<model key="348" value="model=1726" />
+				<model key="355" value="model=15756" />
+				<model key="360" value="model=16389" />
+				<model key="365" value="model=2115" />
+				<model key="400" value="model=2164" />
+				<model key="412" value="model=1727" />
+				<model key="456" value="model=1728" />
+				<model key="512" value="model=1729" />
+				<model key="550" value="model=1730" />
+				<model key="575" value="model=18347" />
+				<model key="599" value="model=18791" />
+				<model key="612" value="model=18468" />
+				<model key="750" value="model=15757" />
+				<model key="Daytona" value="model=15758" />
+				<model key="Dino GT4" value="model=18289" />
+				<model key="Enzo Ferrari" value="model=18309" />
+				<model key="F355" value="model=1731" />
+				<model key="F360" value="model=15670" />
+				<model key="F40" value="model=1732" />
+				<model key="F430" value="model=18547" />
+				<model key="F50" value="model=15668" />
+				<model key="F512" value="model=15671" />
+				<model key="Mondial" value="model=1733" />
+				<model key="Superamerica" value="model=18632" />
+				<model key="Testarossa" value="model=1734" />
+			</make>
+			<make key="Fiat" value="make=28">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="124 Coupè" value="model=16487" />
+				<model key="124 Spider" value="model=15351" />
+				<model key="126" value="model=1735" />
+				<model key="127" value="model=1736" />
+				<model key="130" value="model=2130" />
+				<model key="131" value="model=1737" />
+				<model key="242" value="model=14838" />
+				<model key="500" value="model=15160" />
+				<model key="Barchetta" value="model=1739" />
+				<model key="Brava" value="model=1740" />
+				<model key="Bravo" value="model=1741" />
+				<model key="Campagnola" value="model=15964" />
+				<model key="Cinquecento" value="model=1742" />
+				<model key="Coupe" value="model=1743" />
+				<model key="Croma" value="model=1744" />
+				<model key="Dino" value="model=2168" />
+				<model key="Doblo" value="model=16515" />
+				<model key="Ducato" value="model=14783" />
+				<model key="Duna" value="model=15730" />
+				<model key="Fiorino" value="model=14827" />
+				<model key="Grande Punto" value="model=18731" />
+				<model key="Idea" value="model=18399" />
+				<model key="Linea" value="model=19056" />
+				<model key="Marea" value="model=1745" />
+				<model key="Marengo" value="model=15768" />
+				<model key="Maxi" value="model=15769" />
+				<model key="Multipla" value="model=15640" />
+				<model key="Palio" value="model=15161" />
+				<model key="Panda" value="model=1746" />
+				<model key="Penny" value="model=16407" />
+				<model key="Punto" value="model=1747" />
+				<model key="Regata" value="model=1748" />
+				<model key="Ritmo" value="model=1749" />
+				<model key="Scudo" value="model=15248" />
+				<model key="Sedici" value="model=18779" />
+				<model key="Seicento" value="model=15247" />
+				<model key="Spider Europa" value="model=1750" />
+				<model key="Stilo" value="model=16514" />
+				<model key="Strada" value="model=16372" />
+				<model key="Talento" value="model=15989" />
+				<model key="Tempra" value="model=1751" />
+				<model key="Tipo" value="model=1752" />
+				<model key="Ulysse" value="model=1753" />
+				<model key="Uno" value="model=1754" />
+				<model key="X 1/9" value="model=1755" />
+			</make>
+			<make key="Ford" value="make=29">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Aerostar" value="model=1767" />
+				<model key="Bronco" value="model=1768" />
+				<model key="Capri" value="model=1756" />
+				<model key="C-Max" value="model=19089" />
+				<model key="Cougar" value="model=15647" />
+				<model key="Courier" value="model=15721" />
+				<model key="Crown" value="model=15861" />
+				<model key="Econoline" value="model=18295" />
+				<model key="Econovan" value="model=18633" />
+				<model key="Edge" value="model=18913" />
+				<model key="Escape" value="model=18589" />
+				<model key="Escort" value="model=1757" />
+				<model key="Excursion" value="model=16607" />
+				<model key="Expedition" value="model=16396" />
+				<model key="Explorer" value="model=1769" />
+				<model key="Express" value="model=16364" />
+				<model key="F 150" value="model=16518" />
+				<model key="F 250" value="model=16519" />
+				<model key="F 350" value="model=18389" />
+				<model key="Fiesta" value="model=1758" />
+				<model key="Focus" value="model=15537" />
+				<model key="Focus CC" value="model=18993" />
+				<model key="Focus C-Max" value="model=18390" />
+				<model key="Freestar" value="model=18703" />
+				<model key="Freestyle" value="model=18837" />
+				<model key="Fusion" value="model=18274" />
+				<model key="Galaxy" value="model=1759" />
+				<model key="Granada" value="model=1760" />
+				<model key="GT" value="model=18708" />
+				<model key="Ka" value="model=1761" />
+				<model key="Kuga" value="model=19072" />
+				<model key="M" value="model=15860" />
+				<model key="Maverick" value="model=1762" />
+				<model key="Mercury" value="model=18315" />
+				<model key="Mondeo" value="model=1763" />
+				<model key="Mustang" value="model=2149" />
+				<model key="Orion" value="model=1764" />
+				<model key="Probe" value="model=1770" />
+				<model key="Puma" value="model=14803" />
+				<model key="Ranger" value="model=15862" />
+				<model key="Scorpio" value="model=1765" />
+				<model key="Sierra" value="model=1766" />
+				<model key="S-Max" value="model=18761" />
+				<model key="Streetka" value="model=18372" />
+				<model key="Taunus" value="model=2159" />
+				<model key="Taurus" value="model=1771" />
+				<model key="Thunderbird" value="model=2161" />
+				<model key="Tourneo" value="model=2107" />
+				<model key="Transit" value="model=2160" />
+				<model key="Windstar" value="model=1772" />
+			</make>
+			<make key="GMC" value="make=2153">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Acadia" value="model=18908" />
+				<model key="Andere - Others" value="model=18303" />
+				<model key="Envoy" value="model=18299" />
+				<model key="Safari" value="model=18302" />
+				<model key="Savana" value="model=18296" />
+				<model key="Sierra" value="model=18301" />
+				<model key="Sonoma" value="model=18298" />
+				<model key="Syclone" value="model=15087" />
+				<model key="Typhoon" value="model=2157" />
+				<model key="Vandura" value="model=18297" />
+				<model key="Yukon" value="model=18300" />
+			</make>
+			<make key="HUMMER" value="make=15674">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="H1" value="model=18765" />
+				<model key="H2" value="model=18766" />
+				<model key="H3" value="model=18767" />
+			</make>
+			<make key="Honda" value="make=31">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Accord" value="model=1773" />
+				<model key="Beat" value="model=18749" />
+				<model key="Civic" value="model=1775" />
+				<model key="Concerto" value="model=1776" />
+				<model key="CR-V" value="model=1777" />
+				<model key="CRX" value="model=1778" />
+				<model key="Element" value="model=18325" />
+				<model key="FR-V" value="model=18559" />
+				<model key="HR-V" value="model=15650" />
+				<model key="Insight" value="model=16522" />
+				<model key="Integra" value="model=14911" />
+				<model key="Jazz" value="model=16490" />
+				<model key="Legend" value="model=1781" />
+				<model key="Logo" value="model=15649" />
+				<model key="NSX" value="model=1782" />
+				<model key="Odyssey" value="model=16523" />
+				<model key="Prelude" value="model=1783" />
+				<model key="S 2000" value="model=16408" />
+				<model key="Shuttle" value="model=1785" />
+				<model key="Stream" value="model=16586" />
+			</make>
+			<make key="Hyundai" value="make=33">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Accent" value="model=1786" />
+				<model key="Atos" value="model=15166" />
+				<model key="Coupe" value="model=1787" />
+				<model key="Elantra" value="model=16493" />
+				<model key="Excel" value="model=16157" />
+				<model key="Galloper" value="model=15164" />
+				<model key="Getz" value="model=18267" />
+				<model key="Grandeur" value="model=18600" />
+				<model key="H 100" value="model=15787" />
+				<model key="H 200" value="model=16524" />
+				<model key="H 350" value="model=18663" />
+				<model key="H-1" value="model=16474" />
+				<model key="H-1 Starex" value="model=15165" />
+				<model key="Highway" value="model=18524" />
+				<model key="i30" value="model=19065" />
+				<model key="Lantra" value="model=1788" />
+				<model key="Matrix" value="model=16596" />
+				<model key="Pony" value="model=1789" />
+				<model key="Santa Fe" value="model=16526" />
+				<model key="Santamo" value="model=15811" />
+				<model key="Satellite" value="model=18416" />
+				<model key="S-Coupe" value="model=16475" />
+				<model key="Sonata" value="model=1791" />
+				<model key="Sonica" value="model=18395" />
+				<model key="Terracan" value="model=16597" />
+				<model key="Trajet" value="model=16473" />
+				<model key="Tucson" value="model=18493" />
+				<model key="XG 30" value="model=16370" />
+				<model key="XG 350" value="model=18359" />
+			</make>
+			<make key="Infiniti" value="make=16355">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="FX" value="model=18452" />
+				<model key="G35" value="model=18453" />
+				<model key="G37" value="model=19073" />
+				<model key="I35" value="model=18454" />
+				<model key="M45" value="model=18455" />
+				<model key="Q45" value="model=18456" />
+				<model key="QX56" value="model=18457" />
+			</make>
+			<make key="Isuzu" value="make=35">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Campo" value="model=16536" />
+				<model key="DLX" value="model=16513" />
+				<model key="D-Max" value="model=18987" />
+				<model key="Gemini" value="model=18386" />
+				<model key="Midi" value="model=14988" />
+				<model key="NKR" value="model=18619" />
+				<model key="NPR" value="model=18275" />
+				<model key="PICK UP" value="model=18010" />
+				<model key="Trooper" value="model=1793" />
+				<model key="WFR" value="model=15812" />
+			</make>
+			<make key="Jaguar" value="make=37">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="420" value="model=18949" />
+				<model key="Daimler" value="model=1795" />
+				<model key="D-Type" value="model=16390" />
+				<model key="E" value="model=2119" />
+				<model key="MK II" value="model=2118" />
+				<model key="Sovereign" value="model=2129" />
+				<model key="S-Type" value="model=15654" />
+				<model key="X300" value="model=18488" />
+				<model key="XF" value="model=19069" />
+				<model key="XJ" value="model=15169" />
+				<model key="XJ12" value="model=1798" />
+				<model key="XJ40" value="model=1797" />
+				<model key="XJ6" value="model=1799" />
+				<model key="XJ8" value="model=15168" />
+				<model key="XJR" value="model=1800" />
+				<model key="XJS" value="model=1796" />
+				<model key="XJSC" value="model=18627" />
+				<model key="XK" value="model=18821" />
+				<model key="XK8" value="model=1801" />
+				<model key="XKR" value="model=15170" />
+				<model key="X-Type" value="model=16362" />
+			</make>
+			<make key="Jeep" value="make=38">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Cherokee" value="model=1803" />
+				<model key="CJ-5" value="model=15713" />
+				<model key="CJ-7" value="model=1804" />
+				<model key="CJ-8" value="model=1805" />
+				<model key="Comanche" value="model=18565" />
+				<model key="Commander" value="model=18785" />
+				<model key="Compass" value="model=18967" />
+				<model key="Grand Cherokee" value="model=1806" />
+				<model key="Patriot" value="model=19051" />
+				<model key="Renegade" value="model=15832" />
+				<model key="Wagoneer" value="model=18610" />
+				<model key="Willys" value="model=15965" />
+				<model key="Wrangler" value="model=1807" />
+			</make>
+			<make key="Kia" value="make=39">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Besta" value="model=15796" />
+				<model key="Carens" value="model=16538" />
+				<model key="Carnival" value="model=15882" />
+				<model key="Ceed" value="model=18923" />
+				<model key="Cerato" value="model=18418" />
+				<model key="Clarus" value="model=1808" />
+				<model key="Elan" value="model=15777" />
+				<model key="Joice" value="model=15968" />
+				<model key="K2500" value="model=18515" />
+				<model key="K2700" value="model=18020" />
+				<model key="Leo" value="model=15814" />
+				<model key="Magentis" value="model=16583" />
+				<model key="Mentor" value="model=18528" />
+				<model key="Opirus" value="model=18361" />
+				<model key="Picanto" value="model=18417" />
+				<model key="Pregio" value="model=15969" />
+				<model key="Pride" value="model=1810" />
+				<model key="Retona" value="model=15970" />
+				<model key="Rio" value="model=16476" />
+				<model key="Roadster" value="model=16537" />
+				<model key="Rocsta" value="model=15893" />
+				<model key="Sephia" value="model=1811" />
+				<model key="Shuma" value="model=15678" />
+				<model key="Sorento" value="model=18280" />
+				<model key="Sportage" value="model=1812" />
+			</make>
+			<make key="Lada" value="make=40">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="110" value="model=15653" />
+				<model key="111" value="model=16548" />
+				<model key="112" value="model=16549" />
+				<model key="1200" value="model=18634" />
+				<model key="2107" value="model=16550" />
+				<model key="Aleko" value="model=16551" />
+				<model key="Forma" value="model=16535" />
+				<model key="Kalina" value="model=18911" />
+				<model key="Niva" value="model=1816" />
+				<model key="Nova" value="model=15652" />
+				<model key="Samara" value="model=1817" />
+			</make>
+			<make key="Lamborghini" value="make=41">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Countach" value="model=15673" />
+				<model key="Diablo" value="model=15174" />
+				<model key="Espada" value="model=16391" />
+				<model key="Gallardo" value="model=18356" />
+				<model key="Jalpa" value="model=15672" />
+				<model key="LM" value="model=16392" />
+				<model key="Miura" value="model=15759" />
+				<model key="Murciélago" value="model=16618" />
+				<model key="Urraco P250" value="model=16635" />
+			</make>
+			<make key="Lancia" value="make=42">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Beta" value="model=1819" />
+				<model key="Dedra" value="model=1820" />
+				<model key="Delta" value="model=1822" />
+				<model key="Flaminia" value="model=16415" />
+				<model key="Fulvia" value="model=14773" />
+				<model key="Gamma" value="model=1823" />
+				<model key="K" value="model=16437" />
+				<model key="Kappa" value="model=1824" />
+				<model key="Lybra" value="model=15985" />
+				<model key="MUSA" value="model=18541" />
+				<model key="Phedra" value="model=18313" />
+				<model key="Prisma" value="model=1825" />
+				<model key="Stratos" value="model=15876" />
+				<model key="Thema" value="model=1826" />
+				<model key="Thesis" value="model=16613" />
+				<model key="Y" value="model=1828" />
+				<model key="Ypsilon" value="model=18393" />
+				<model key="Z" value="model=15830" />
+				<model key="ZETA" value="model=18030" />
+			</make>
+			<make key="LandRover" value="make=15641">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Defender" value="model=15794" />
+				<model key="Discovery" value="model=15791" />
+				<model key="Freelander" value="model=15792" />
+				<model key="Range Rover" value="model=15793" />
+				<model key="Range Rover Sport" value="model=18555" />
+			</make>
+			<make key="Landwind" value="make=16372">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="S" value="model=18725" />
+				<model key="SC2" value="model=18727" />
+				<model key="SC4" value="model=18726" />
+			</make>
+			<make key="Lexus" value="make=43">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="ES 350" value="model=18823" />
+				<model key="GS-Serie (alle)" value="model=-47" />
+				<model key="GS 300" value="model=15709" />
+				<model key="GS 430" value="model=16568" />
+				<model key="GS 450h" value="model=18817" />
+				<model key="GX 470" value="model=18414" />
+				<model key="IS-Serie (alle)" value="model=-49" />
+				<model key="IS 200" value="model=15710" />
+				<model key="IS 220d" value="model=18740" />
+				<model key="IS 250" value="model=18739" />
+				<model key="IS 300" value="model=18040" />
+				<model key="LS 460" value="model=18989" />
+				<model key="LS-Serie (alle)" value="model=-50" />
+				<model key="LS 400" value="model=15708" />
+				<model key="LS 430" value="model=16494" />
+				<model key="LS 600" value="model=19076" />
+				<model key="LX 470" value="model=16445" />
+				<model key="RX-Serie (alle)" value="model=-52" />
+				<model key="RX 300" value="model=16404" />
+				<model key="RX 330" value="model=18496" />
+				<model key="RX 350" value="model=18763" />
+				<model key="RX 400" value="model=18623" />
+				<model key="SC-Serie (alle)" value="model=-53" />
+				<model key="SC 400" value="model=15714" />
+				<model key="SC 430" value="model=18050" />
+			</make>
+			<make key="Ligier" value="make=16353">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="162" value="model=18379" />
+				<model key="Ambra" value="model=18378" />
+				<model key="Be-Two" value="model=18873" />
+				<model key="Be-Up" value="model=18377" />
+				<model key="Nova" value="model=18376" />
+				<model key="Optima" value="model=18381" />
+				<model key="Prima" value="model=18380" />
+				<model key="X-Pro" value="model=18872" />
+				<model key="X-Too" value="model=18871" />
+			</make>
+			<make key="Lincoln" value="make=14890">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Aviator" value="model=18326" />
+				<model key="Continental" value="model=15863" />
+				<model key="LS" value="model=16593" />
+				<model key="Mark" value="model=18525" />
+				<model key="Navigator" value="model=16397" />
+				<model key="Town Car" value="model=14894" />
+				<model key="Zephyr" value="model=18713" />
+			</make>
+			<make key="Lotus" value="make=44">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="340 R" value="model=16557" />
+				<model key="Cortina" value="model=16592" />
+				<model key="Elan" value="model=1832" />
+				<model key="Elise" value="model=1833" />
+				<model key="Elite" value="model=16590" />
+				<model key="Esprit" value="model=1834" />
+				<model key="opa" value="model=15033" />
+				<model key="Excel" value="model=16589" />
+				<model key="Exige" value="model=16451" />
+				<model key="Omega" value="model=16591" />
+				<model key="Super Seven" value="model=2111" />
+				<model key="V8" value="model=16393" />
+				<model key="Venturi" value="model=18294" />
+			</make>
+			<make key="MG" value="make=48">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="MGA" value="model=16504" />
+				<model key="MGB" value="model=15204" />
+				<model key="MGF" value="model=1873" />
+				<model key="TD" value="model=18521" />
+				<model key="TF" value="model=18269" />
+				<model key="ZR" value="model=16577" />
+				<model key="ZS" value="model=16578" />
+				<model key="ZT" value="model=16579" />
+			</make>
+			<make key="Mahindra" value="make=16359">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Bolero" value="model=18834" />
+				<model key="CJ" value="model=18494" />
+				<model key="Goa" value="model=18833" />
+				<model key="Jeep" value="model=18530" />
+			</make>
+			<make key="Maserati" value="make=45">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="222" value="model=18362" />
+				<model key="224" value="model=18363" />
+				<model key="228" value="model=18364" />
+				<model key="3200" value="model=15667" />
+				<model key="418" value="model=18365" />
+				<model key="420" value="model=18366" />
+				<model key="4200" value="model=18403" />
+				<model key="422" value="model=15833" />
+				<model key="424" value="model=15834" />
+				<model key="430" value="model=15987" />
+				<model key="Biturbo" value="model=1835" />
+				<model key="Coupe" value="model=18263" />
+				<model key="Ghibli" value="model=15189" />
+				<model key="Gransport" value="model=18635" />
+				<model key="Granturismo" value="model=19075" />
+				<model key="Indy" value="model=15778" />
+				<model key="Karif" value="model=15665" />
+				<model key="MC12" value="model=18661" />
+				<model key="Merak" value="model=15742" />
+				<model key="Quattroporte" value="model=15190" />
+				<model key="Racing" value="model=15963" />
+				<model key="Shamal" value="model=15666" />
+				<model key="Spyder" value="model=16620" />
+				<model key="TC" value="model=19091" />
+			</make>
+			<make key="Maybach" value="make=16348">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="57" value="model=18304" />
+				<model key="62" value="model=18305" />
+			</make>
+			<make key="Mazda" value="make=46">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="121" value="model=1836" />
+				<model key="2" value="model=18342" />
+				<model key="3" value="model=18388" />
+				<model key="323" value="model=1837" />
+				<model key="5" value="model=18624" />
+				<model key="6" value="model=18266" />
+				<model key="626" value="model=1838" />
+				<model key="929" value="model=1839" />
+				<model key="B 2500" value="model=15820" />
+				<model key="B 2600" value="model=18835" />
+				<model key="BT-50" value="model=19049" />
+				<model key="CX-7" value="model=18795" />
+				<model key="Demio" value="model=15565" />
+				<model key="E" value="model=14777" />
+				<model key="MPV" value="model=1840" />
+				<model key="MX-3" value="model=1841" />
+				<model key="MX-5" value="model=1842" />
+				<model key="MX-6" value="model=1843" />
+				<model key="Pick Up" value="model=18909" />
+				<model key="Premacy" value="model=15659" />
+				<model key="RX-6" value="model=18340" />
+				<model key="RX-7" value="model=1844" />
+				<model key="RX-8" value="model=18343" />
+				<model key="Tribute" value="model=16534" />
+				<model key="Xedos" value="model=1845" />
+			</make>
+			<make key="MercedesBenz" value="make=47">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="190" value="model=1846" />
+				<model key="200" value="model=1847" />
+				<model key="220" value="model=15690" />
+				<model key="230" value="model=1848" />
+				<model key="240" value="model=1849" />
+				<model key="250" value="model=1850" />
+				<model key="260" value="model=1851" />
+				<model key="270" value="model=15723" />
+				<model key="280" value="model=1852" />
+				<model key="300" value="model=1853" />
+				<model key="320" value="model=1854" />
+				<model key="350" value="model=15383" />
+				<model key="380" value="model=1855" />
+				<model key="400" value="model=1856" />
+				<model key="416" value="model=18288" />
+				<model key="420" value="model=2126" />
+				<model key="450" value="model=14865" />
+				<model key="500" value="model=1857" />
+				<model key="560" value="model=2127" />
+				<model key="600" value="model=1858" />
+				<model key="Actros" value="model=18293" />
+				<model key="A-Klasse (alle)" value="model=-54" />
+				<model key="A 140" value="model=15701" />
+				<model key="A 150" value="model=18485" />
+				<model key="A 160" value="model=14869" />
+				<model key="A 170" value="model=15702" />
+				<model key="A 180" value="model=18486" />
+				<model key="A 190" value="model=15703" />
+				<model key="A 200" value="model=18487" />
+				<model key="A 210" value="model=18273" />
+				<model key="Atego" value="model=18292" />
+				<model key="B-Klasse (alle)" value="model=-55" />
+				<model key="B 150" value="model=18606" />
+				<model key="B 170" value="model=18607" />
+				<model key="B 180" value="model=18608" />
+				<model key="B 200" value="model=18609" />
+				<model key="CE-Klasse (alle)" value="model=-57" />
+				<model key="CE 200" value="model=16492" />
+				<model key="CE 300" value="model=15715" />
+				<model key="C-Klasse (alle)" value="model=-56" />
+				<model key="C 160" value="model=18613" />
+				<model key="C 180" value="model=1859" />
+				<model key="C 200" value="model=1860" />
+				<model key="C 220" value="model=2147" />
+				<model key="C 230" value="model=1861" />
+				<model key="C 240" value="model=15693" />
+				<model key="C 250" value="model=15384" />
+				<model key="C 270" value="model=16488" />
+				<model key="C 280" value="model=2099" />
+				<model key="C 30 AMG" value="model=18371" />
+				<model key="C 32 AMG" value="model=16582" />
+				<model key="C 320" value="model=15973" />
+				<model key="C 350" value="model=18614" />
+				<model key="C 36 AMG" value="model=14807" />
+				<model key="C 43 AMG" value="model=15632" />
+				<model key="C 55 AMG" value="model=18422" />
+				<model key="CL 63 AMG" value="model=18991" />
+				<model key="CLK-Klasse (alle)" value="model=-59" />
+				<model key="CLK" value="model=14926" />
+				<model key="CLK 200" value="model=18879" />
+				<model key="CLK 220" value="model=18881" />
+				<model key="CLK 230" value="model=18882" />
+				<model key="CLK 240" value="model=18883" />
+				<model key="CLK 270" value="model=18885" />
+				<model key="CLK 280" value="model=18886" />
+				<model key="CLK 320" value="model=18887" />
+				<model key="CLK 350" value="model=18889" />
+				<model key="CLK 430" value="model=18891" />
+				<model key="CLK 500" value="model=18892" />
+				<model key="CLK 55 AMG" value="model=16506" />
+				<model key="CLK 63 AMG" value="model=18815" />
+				<model key="CL-Klasse (alle)" value="model=-58" />
+				<model key="CL" value="model=15725" />
+				<model key="CL 180" value="model=18507" />
+				<model key="CL 200" value="model=18508" />
+				<model key="CL 220" value="model=18509" />
+				<model key="CL 230" value="model=18510" />
+				<model key="CL 420" value="model=18511" />
+				<model key="CL 500" value="model=18512" />
+				<model key="CL 55 AMG" value="model=18423" />
+				<model key="CL 600" value="model=18513" />
+				<model key="CL 65 AMG" value="model=18636" />
+				<model key="CLS-Klasse (alle)" value="model=-60" />
+				<model key="CLS" value="model=18505" />
+				<model key="CLS 55 AMG" value="model=18813" />
+				<model key="CLS 63 AMG" value="model=18814" />
+				<model key="E-Klasse (alle)" value="model=-61" />
+				<model key="E 200" value="model=1862" />
+				<model key="E 220" value="model=1863" />
+				<model key="E 230" value="model=15029" />
+				<model key="E 240" value="model=15517" />
+				<model key="E 250" value="model=15695" />
+				<model key="E 260" value="model=15955" />
+				<model key="E 270" value="model=15763" />
+				<model key="E 280" value="model=1864" />
+				<model key="E 290" value="model=1865" />
+				<model key="E 300" value="model=15543" />
+				<model key="E 320" value="model=2117" />
+				<model key="E 350" value="model=18546" />
+				<model key="E 36 AMG" value="model=15694" />
+				<model key="E 400" value="model=18368" />
+				<model key="E 420" value="model=1866" />
+				<model key="E 430" value="model=15698" />
+				<model key="E 50" value="model=15549" />
+				<model key="E 500" value="model=2162" />
+				<model key="E 55" value="model=15699" />
+				<model key="E 60 AMG" value="model=18476" />
+				<model key="E 63 AMG" value="model=18804" />
+				<model key="G-Klasse (alle)" value="model=-62" />
+				<model key="G" value="model=15776" />
+				<model key="G 55 AMG" value="model=18425" />
+				<model key="GL-Klasse (alle)" value="model=-63" />
+				<model key="GL 320" value="model=18769" />
+				<model key="GL 420" value="model=18770" />
+				<model key="GL 450" value="model=18771" />
+				<model key="GL 500" value="model=18772" />
+				<model key="LKW/TRUCKS" value="model=15944" />
+				<model key="MB 100" value="model=16575" />
+				<model key="ML-Klasse (alle)" value="model=-64" />
+				<model key="ML 230" value="model=15201" />
+				<model key="ML 270" value="model=15866" />
+				<model key="ML 280" value="model=18615" />
+				<model key="ML 320" value="model=15202" />
+				<model key="ML 350" value="model=18319" />
+				<model key="ML 400" value="model=16555" />
+				<model key="ML 420" value="model=18803" />
+				<model key="ML 430" value="model=15705" />
+				<model key="ML 500" value="model=16556" />
+				<model key="ML 55 AMG" value="model=16438" />
+				<model key="ML 63 AMG" value="model=18753" />
+				<model key="R-Klasse (alle)" value="model=-65" />
+				<model key="R 280" value="model=18801" />
+				<model key="R 320" value="model=18603" />
+				<model key="R 350" value="model=18604" />
+				<model key="R 500" value="model=18605" />
+				<model key="R 63 AMG" value="model=18802" />
+				<model key="S 63 AMG" value="model=18990" />
+				<model key="S-Klasse (alle)" value="model=-66" />
+				<model key="S 280" value="model=15103" />
+				<model key="S 300" value="model=15696" />
+				<model key="S 320" value="model=15105" />
+				<model key="S 350" value="model=15697" />
+				<model key="S 400" value="model=15775" />
+				<model key="S 420" value="model=15107" />
+				<model key="S 430" value="model=15704" />
+				<model key="S 450" value="model=18895" />
+				<model key="S 500" value="model=15108" />
+				<model key="S 55" value="model=16489" />
+				<model key="S 550" value="model=18787" />
+				<model key="S 560" value="model=15724" />
+				<model key="S 600" value="model=15109" />
+				<model key="S 65 AMG" value="model=18580" />
+				<model key="SLK-Klasse (alle)" value="model=-68" />
+				<model key="SLK" value="model=1871" />
+				<model key="SLK 200" value="model=18560" />
+				<model key="SLK 230" value="model=16446" />
+				<model key="SLK 280" value="model=18617" />
+				<model key="SLK 32 AMG" value="model=16509" />
+				<model key="SLK 320" value="model=15975" />
+				<model key="SLK 350" value="model=18561" />
+				<model key="SLK 55 AMG" value="model=18424" />
+				<model key="SL-Klasse (alle)" value="model=-67" />
+				<model key="SL 280" value="model=1867" />
+				<model key="SL 300" value="model=15691" />
+				<model key="SL 320" value="model=1868" />
+				<model key="SL 350" value="model=16483" />
+				<model key="SL 380" value="model=16481" />
+				<model key="SL 420" value="model=16482" />
+				<model key="SL 450" value="model=16484" />
+				<model key="SL 500" value="model=1869" />
+				<model key="SL 55 AMG" value="model=18060" />
+				<model key="SL 560" value="model=16485" />
+				<model key="SL 600" value="model=1870" />
+				<model key="SL 65 AMG" value="model=18492" />
+				<model key="SLR" value="model=16381" />
+				<model key="Sprinter" value="model=15943" />
+				<model key="Vaneo" value="model=16576" />
+				<model key="Vario" value="model=18272" />
+				<model key="Viano" value="model=18394" />
+				<model key="Vito" value="model=15942" />
+				<model key="V-Klasse (alle)" value="model=-69" />
+				<model key="V" value="model=15945" />
+				<model key="V 200" value="model=18562" />
+				<model key="V 220" value="model=15700" />
+				<model key="V 230" value="model=15199" />
+				<model key="V 280" value="model=15200" />
+			</make>
+			<make key="Mini" value="make=16338">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="1000" value="model=16600" />
+				<model key="1300" value="model=16601" />
+				<model key="Clubman" value="model=19053" />
+				<model key="Cooper" value="model=16603" />
+				<model key="Mini" value="model=16574" />
+				<model key="One" value="model=16602" />
+			</make>
+			<make key="Mitsubishi" value="make=50">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="3000 GT" value="model=1875" />
+				<model key="400" value="model=16366" />
+				<model key="Canter" value="model=14908" />
+				<model key="Carisma" value="model=1876" />
+				<model key="Colt" value="model=1877" />
+				<model key="Cordia" value="model=18529" />
+				<model key="Cosmos" value="model=16398" />
+				<model key="Eclipse" value="model=1879" />
+				<model key="Galant" value="model=1882" />
+				<model key="Galloper" value="model=15877" />
+				<model key="Grandis" value="model=18428" />
+				<model key="L200" value="model=2112" />
+				<model key="L300" value="model=2171" />
+				<model key="L400" value="model=16412" />
+				<model key="Lancer" value="model=1884" />
+				<model key="Montero" value="model=15731" />
+				<model key="Outlander" value="model=18355" />
+				<model key="Pajero" value="model=1885" />
+				<model key="Pajero Pinin" value="model=18391" />
+				<model key="Pajero Sport" value="model=18839" />
+				<model key="PICK UP" value="model=18070" />
+				<model key="Santamo" value="model=16439" />
+				<model key="Sapporo" value="model=16464" />
+				<model key="Sigma" value="model=1888" />
+				<model key="Sigma Wagon" value="model=1889" />
+				<model key="Space Gear" value="model=1890" />
+				<model key="Space Runner" value="model=1891" />
+				<model key="Space Star" value="model=15546" />
+				<model key="Space Wagon" value="model=1892" />
+				<model key="Starion" value="model=1893" />
+				<model key="Tredia" value="model=18645" />
+			</make>
+			<make key="Morgan" value="make=51">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="4/4" value="model=18773" />
+				<model key="Aero 8" value="model=16609" />
+				<model key="Morgan" value="model=15784" />
+				<model key="Plus 4" value="model=16440" />
+				<model key="Plus 8" value="model=16441" />
+			</make>
+			<make key="Nissan" value="make=52">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="100" value="model=1895" />
+				<model key="200" value="model=1896" />
+				<model key="280 ZX" value="model=1897" />
+				<model key="300 ZX" value="model=1898" />
+				<model key="350" value="model=19077" />
+				<model key="350Z" value="model=18324" />
+				<model key="Almera" value="model=1899" />
+				<model key="Almera Tino" value="model=18411" />
+				<model key="Armada" value="model=18579" />
+				<model key="Bluebird" value="model=1900" />
+				<model key="Cabstar" value="model=18283" />
+				<model key="Cargo" value="model=2169" />
+				<model key="Cherry" value="model=1901" />
+				<model key="Cube" value="model=18750" />
+				<model key="Figaro" value="model=18751" />
+				<model key="Frontier" value="model=18323" />
+				<model key="GT-R" value="model=19090" />
+				<model key="Interstar" value="model=18286" />
+				<model key="King Cab" value="model=15850" />
+				<model key="Kubistar" value="model=18392" />
+				<model key="Laurel" value="model=18478" />
+				<model key="Maxima" value="model=1903" />
+				<model key="Micra" value="model=1904" />
+				<model key="Murano" value="model=18318" />
+				<model key="Navara" value="model=18307" />
+				<model key="Note" value="model=18682" />
+				<model key="Pathfinder" value="model=15207" />
+				<model key="Patrol" value="model=1905" />
+				<model key="Pick Up" value="model=15851" />
+				<model key="Prairie" value="model=1906" />
+				<model key="Primastar" value="model=18358" />
+				<model key="Primera" value="model=1907" />
+				<model key="Qashqai" value="model=18921" />
+				<model key="Quest" value="model=16403" />
+				<model key="Serena" value="model=1908" />
+				<model key="Silvia" value="model=18316" />
+				<model key="Skyline" value="model=18695" />
+				<model key="Sunny" value="model=1911" />
+				<model key="Terrano" value="model=1912" />
+				<model key="Terrano II" value="model=1913" />
+				<model key="Tiida" value="model=19067" />
+				<model key="Titan" value="model=18625" />
+				<model key="Trade" value="model=15874" />
+				<model key="Urvan" value="model=2134" />
+				<model key="Vanette" value="model=15782" />
+				<model key="X-Trail" value="model=16554" />
+			</make>
+			<make key="Oldsmobile" value="make=53">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Bravada" value="model=15967" />
+				<model key="Custom Cruiser" value="model=18535" />
+				<model key="Cutlass" value="model=1914" />
+				<model key="Delta 88" value="model=2131" />
+				<model key="Silhouette" value="model=18401" />
+				<model key="Supreme" value="model=18536" />
+				<model key="Toronado" value="model=2132" />
+			</make>
+			<make key="Opel" value="make=54">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Agila" value="model=16417" />
+				<model key="Antara" value="model=18827" />
+				<model key="Arena" value="model=15740" />
+				<model key="Ascona" value="model=1915" />
+				<model key="Astra" value="model=1916" />
+				<model key="Calibra" value="model=1917" />
+				<model key="Campo" value="model=15852" />
+				<model key="Combo" value="model=14825" />
+				<model key="Commodore" value="model=14854" />
+				<model key="Corsa" value="model=1918" />
+				<model key="Diplomat" value="model=2158" />
+				<model key="Frontera" value="model=1919" />
+				<model key="GT" value="model=16604" />
+				<model key="Kadett" value="model=1920" />
+				<model key="Manta" value="model=1921" />
+				<model key="Meriva" value="model=18341" />
+				<model key="Monterey" value="model=1922" />
+				<model key="Monza" value="model=1923" />
+				<model key="Movano" value="model=15870" />
+				<model key="Omega" value="model=1924" />
+				<model key="Pick Up Sportscap" value="model=18080" />
+				<model key="Rekord" value="model=1926" />
+				<model key="Senator" value="model=1927" />
+				<model key="Signum" value="model=18345" />
+				<model key="Sintra" value="model=1929" />
+				<model key="Speedster" value="model=16447" />
+				<model key="Tigra" value="model=1930" />
+				<model key="Trans Sport" value="model=18090" />
+				<model key="Vectra" value="model=1931" />
+				<model key="Vivaro" value="model=16612" />
+				<model key="Zafira" value="model=15660" />
+			</make>
+			<make key="Peugeot" value="make=55">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="1007" value="model=18621" />
+				<model key="104" value="model=1932" />
+				<model key="106" value="model=1933" />
+				<model key="107" value="model=18647" />
+				<model key="204" value="model=15764" />
+				<model key="205" value="model=1934" />
+				<model key="206" value="model=15401" />
+				<model key="207" value="model=18797" />
+				<model key="304" value="model=15867" />
+				<model key="305" value="model=1935" />
+				<model key="306" value="model=1936" />
+				<model key="307" value="model=16553" />
+				<model key="308" value="model=19055" />
+				<model key="309" value="model=1937" />
+				<model key="4007" value="model=19066" />
+				<model key="404" value="model=15718" />
+				<model key="405" value="model=1938" />
+				<model key="406" value="model=1939" />
+				<model key="407" value="model=18421" />
+				<model key="504" value="model=16573" />
+				<model key="505" value="model=1940" />
+				<model key="604" value="model=18637" />
+				<model key="605" value="model=1942" />
+				<model key="607" value="model=16495" />
+				<model key="806" value="model=1943" />
+				<model key="807" value="model=18282" />
+				<model key="Boxer" value="model=14821" />
+				<model key="Camper" value="model=14845" />
+				<model key="Expert" value="model=14851" />
+				<model key="J5" value="model=16365" />
+				<model key="Partner" value="model=14822" />
+			</make>
+			<make key="Piaggio" value="make=16350">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Ape" value="model=19086" />
+				<model key="M500" value="model=19087" />
+				<model key="PK500" value="model=19088" />
+				<model key="Porter" value="model=18330" />
+				<model key="Quargo" value="model=18799" />
+			</make>
+			<make key="Plymouth" value="make=2151">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Grand Caravan" value="model=2156" />
+				<model key="Prowler" value="model=16587" />
+			</make>
+			<make key="Pontiac" value="make=56">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="6000" value="model=1944" />
+				<model key="Aztek" value="model=18475" />
+				<model key="Bonneville" value="model=1945" />
+				<model key="Fiero" value="model=15732" />
+				<model key="Firebird" value="model=1946" />
+				<model key="G6" value="model=18470" />
+				<model key="Grand-Am" value="model=1947" />
+				<model key="Grand-Prix" value="model=1948" />
+				<model key="GTO" value="model=18471" />
+				<model key="Montana" value="model=18474" />
+				<model key="Solstice Roadster" value="model=18611" />
+				<model key="Sunbird" value="model=18410" />
+				<model key="Sunfire" value="model=18473" />
+				<model key="Targa" value="model=15629" />
+				<model key="Trans Am" value="model=14867" />
+				<model key="Trans Sport" value="model=1949" />
+				<model key="Vibe" value="model=18472" />
+			</make>
+			<make key="Porsche" value="make=57">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="356" value="model=15957" />
+				<model key="911er (alle)" value="model=-70" />
+				<model key="911" value="model=1950" />
+				<model key="964" value="model=15977" />
+				<model key="993" value="model=15881" />
+				<model key="996" value="model=15880" />
+				<model key="997" value="model=18548" />
+				<model key="912" value="model=18527" />
+				<model key="914" value="model=15980" />
+				<model key="924" value="model=1951" />
+				<model key="928" value="model=1952" />
+				<model key="944" value="model=1953" />
+				<model key="959" value="model=15743" />
+				<model key="962" value="model=18278" />
+				<model key="968" value="model=1954" />
+				<model key="Boxster" value="model=1955" />
+				<model key="Carrera GT" value="model=15359" />
+				<model key="Cayenne" value="model=18284" />
+				<model key="Cayman" value="model=18684" />
+				<model key="Targa" value="model=19085" />
+			</make>
+			<make key="Proton" value="make=15636">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="313" value="model=16539" />
+				<model key="315" value="model=16540" />
+				<model key="316" value="model=16541" />
+				<model key="318" value="model=16542" />
+				<model key="413" value="model=16543" />
+				<model key="415" value="model=16544" />
+				<model key="416" value="model=16545" />
+				<model key="418" value="model=16546" />
+				<model key="420" value="model=16547" />
+			</make>
+			<make key="Renault" value="make=60">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Alpine A310" value="model=1958" />
+				<model key="Alpine A610" value="model=1959" />
+				<model key="Alpine V6" value="model=1960" />
+				<model key="Avantime" value="model=16616" />
+				<model key="Clio" value="model=1961" />
+				<model key="Coupe" value="model=14830" />
+				<model key="Espace" value="model=1962" />
+				<model key="Express" value="model=2133" />
+				<model key="Fuego" value="model=1963" />
+				<model key="Grand Espace" value="model=16505" />
+				<model key="Grand Scenic" value="model=18711" />
+				<model key="Kangoo" value="model=15317" />
+				<model key="Laguna" value="model=1964" />
+				<model key="Mascott" value="model=18277" />
+				<model key="Master" value="model=14717" />
+				<model key="Megane" value="model=1965" />
+				<model key="Modus" value="model=18522" />
+				<model key="P 1400" value="model=18100" />
+				<model key="R 11" value="model=1966" />
+				<model key="R 14" value="model=1967" />
+				<model key="R 18" value="model=1968" />
+				<model key="R 19" value="model=1969" />
+				<model key="R 20" value="model=1970" />
+				<model key="R 21" value="model=1971" />
+				<model key="R 25" value="model=1972" />
+				<model key="R 30" value="model=1973" />
+				<model key="R 4" value="model=1974" />
+				<model key="R 5" value="model=1975" />
+				<model key="R 6" value="model=18337" />
+				<model key="R 9" value="model=1976" />
+				<model key="Rapid" value="model=15737" />
+				<model key="Safrane" value="model=1977" />
+				<model key="Scenic" value="model=14786" />
+				<model key="Spider" value="model=15706" />
+				<model key="Super 5" value="model=1978" />
+				<model key="Trafic" value="model=2096" />
+				<model key="Twingo" value="model=1979" />
+				<model key="Vel Satis" value="model=16617" />
+			</make>
+			<make key="RollsRoyce" value="make=61">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Cloud" value="model=2165" />
+				<model key="Corniche" value="model=2167" />
+				<model key="Flying Spur" value="model=15676" />
+				<model key="Park Ward Turbo" value="model=15217" />
+				<model key="Phantom" value="model=15821" />
+				<model key="Phantom Drophead" value="model=19057" />
+				<model key="Silver Dawn" value="model=15215" />
+				<model key="Silver Seraph" value="model=15219" />
+				<model key="Silver Shadow" value="model=2166" />
+				<model key="Silver Spirit" value="model=15674" />
+				<model key="Silver Spur" value="model=15675" />
+				<model key="Touring" value="model=15218" />
+			</make>
+			<make key="Rover" value="make=62">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="100" value="model=15959" />
+				<model key="111" value="model=15726" />
+				<model key="114" value="model=1980" />
+				<model key="200" value="model=1981" />
+				<model key="213" value="model=18110" />
+				<model key="214" value="model=1982" />
+				<model key="216" value="model=1983" />
+				<model key="220" value="model=1984" />
+				<model key="25" value="model=15871" />
+				<model key="400" value="model=15960" />
+				<model key="414" value="model=15781" />
+				<model key="416" value="model=1987" />
+				<model key="418" value="model=15949" />
+				<model key="420" value="model=1988" />
+				<model key="45" value="model=15872" />
+				<model key="600" value="model=15961" />
+				<model key="618" value="model=15761" />
+				<model key="620" value="model=1989" />
+				<model key="623" value="model=1990" />
+				<model key="75" value="model=15728" />
+				<model key="800" value="model=1991" />
+				<model key="820" value="model=1992" />
+				<model key="825" value="model=1993" />
+				<model key="827" value="model=1994" />
+				<model key="Concerto" value="model=15988" />
+				<model key="Estate" value="model=15962" />
+				<model key="Metro" value="model=16532" />
+				<model key="Montego" value="model=15823" />
+				<model key="Rover" value="model=18639" />
+				<model key="SD" value="model=16368" />
+				<model key="Streetwise" value="model=18413" />
+				<model key="Tourer" value="model=16517" />
+			</make>
+			<make key="Saab" value="make=63">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="90" value="model=1999" />
+				<model key="900" value="model=2000" />
+				<model key="9000" value="model=2001" />
+				<model key="9-3" value="model=15057" />
+				<model key="9-5" value="model=15058" />
+				<model key="96" value="model=16511" />
+				<model key="9-7X" value="model=18597" />
+				<model key="99" value="model=2002" />
+			</make>
+			<make key="Santana" value="make=16369">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="300" value="model=19093" />
+				<model key="350" value="model=19094" />
+				<model key="410" value="model=19095" />
+				<model key="PS-10" value="model=18715" />
+			</make>
+			<make key="Seat" value="make=64">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Alhambra" value="model=2003" />
+				<model key="Altea" value="model=18427" />
+				<model key="Arosa" value="model=14763" />
+				<model key="Cordoba" value="model=2004" />
+				<model key="Fura" value="model=18640" />
+				<model key="Ibiza" value="model=2006" />
+				<model key="Inca" value="model=14762" />
+				<model key="Leon" value="model=15869" />
+				<model key="Malaga" value="model=2007" />
+				<model key="Marbella" value="model=2008" />
+				<model key="Panda" value="model=16510" />
+				<model key="Ronda" value="model=18641" />
+				<model key="Terra" value="model=15770" />
+				<model key="Toledo" value="model=2010" />
+			</make>
+			<make key="Skoda" value="make=65">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="105" value="model=18642" />
+				<model key="120" value="model=18120" />
+				<model key="130" value="model=18643" />
+				<model key="135" value="model=18130" />
+				<model key="Fabia" value="model=15878" />
+				<model key="Favorit" value="model=2014" />
+				<model key="Felicia" value="model=2015" />
+				<model key="Forman" value="model=2016" />
+				<model key="Octavia" value="model=15222" />
+				<model key="Pick-up" value="model=18140" />
+				<model key="Praktik" value="model=19064" />
+				<model key="Roomster" value="model=18877" />
+				<model key="Superb" value="model=16621" />
+			</make>
+			<make key="Smart" value="make=15525">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Crossblade" value="model=18442" />
+				<model key="ForFour" value="model=18438" />
+				<model key="ForTwo" value="model=18439" />
+				<model key="Roadster" value="model=18440" />
+				<model key="Smart" value="model=15748" />
+			</make>
+			<make key="SsangYong" value="make=66">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Actyon" value="model=18988" />
+				<model key="Family" value="model=18306" />
+				<model key="Korando" value="model=15228" />
+				<model key="Kyron" value="model=18679" />
+				<model key="MUSSO" value="model=2017" />
+				<model key="REXTON" value="model=18262" />
+				<model key="Rodius" value="model=18587" />
+			</make>
+			<make key="Subaru" value="make=67">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="1200" value="model=18150" />
+				<model key="1800" value="model=2019" />
+				<model key="B9 Tribeca" value="model=18671" />
+				<model key="Baja" value="model=18657" />
+				<model key="E10" value="model=2021" />
+				<model key="Forester" value="model=15224" />
+				<model key="Impreza" value="model=2023" />
+				<model key="Justy" value="model=2024" />
+				<model key="Legacy" value="model=2025" />
+				<model key="Libero" value="model=16367" />
+				<model key="Mini" value="model=16465" />
+				<model key="OUTBACK" value="model=18160" />
+				<model key="SVX" value="model=2026" />
+				<model key="Vivio" value="model=16466" />
+				<model key="XT" value="model=2028" />
+			</make>
+			<make key="Suzuki" value="make=68">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Alto" value="model=2029" />
+				<model key="Baleno" value="model=2030" />
+				<model key="Cappuccino" value="model=15868" />
+				<model key="Carry" value="model=15733" />
+				<model key="Grand Vitara" value="model=18170" />
+				<model key="Ignis" value="model=16530" />
+				<model key="Jimny" value="model=15662" />
+				<model key="Liana" value="model=16572" />
+				<model key="LJ 80" value="model=2031" />
+				<model key="Maruti" value="model=15875" />
+				<model key="SA 310" value="model=2032" />
+				<model key="Samurai" value="model=2033" />
+				<model key="Santana" value="model=15947" />
+				<model key="SJ 410" value="model=2034" />
+				<model key="SJ 413" value="model=2035" />
+				<model key="SJ Samurai" value="model=18180" />
+				<model key="Splash" value="model=19052" />
+				<model key="Super-Carry" value="model=2148" />
+				<model key="Swift" value="model=2036" />
+				<model key="SX 4" value="model=18768" />
+				<model key="Vitara" value="model=2037" />
+				<model key="Wagon R+" value="model=15226" />
+				<model key="X-90" value="model=2038" />
+			</make>
+			<make key="TVR" value="make=71">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Cerbera" value="model=15234" />
+				<model key="Chimaera" value="model=15232" />
+				<model key="Griffith" value="model=15233" />
+				<model key="S 2,8" value="model=16610" />
+				<model key="S4C" value="model=15680" />
+				<model key="Sagaris" value="model=18690" />
+				<model key="T350" value="model=18689" />
+				<model key="Tuscan" value="model=18385" />
+				<model key="V8S" value="model=15681" />
+			</make>
+			<make key="Talbot" value="make=15666">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Horizon" value="model=16467" />
+				<model key="Samba" value="model=16395" />
+				<model key="Solara" value="model=15946" />
+			</make>
+			<make key="Tata" value="make=16327">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Estate" value="model=16527" />
+				<model key="Pick-Up" value="model=18899" />
+				<model key="Safari" value="model=16529" />
+				<model key="Sumo" value="model=16528" />
+				<model key="Telcoline" value="model=16468" />
+				<model key="Telcosport" value="model=16371" />
+			</make>
+			<make key="Toyota" value="make=70">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="4-Runner" value="model=2045" />
+				<model key="Auris" value="model=18992" />
+				<model key="Avalon" value="model=18698" />
+				<model key="Avensis" value="model=15230" />
+				<model key="Aygo" value="model=18655" />
+				<model key="Camry" value="model=2046" />
+				<model key="Carina" value="model=2047" />
+				<model key="Celica" value="model=2050" />
+				<model key="Corolla" value="model=2052" />
+				<model key="Cressida" value="model=2053" />
+				<model key="Crown" value="model=18659" />
+				<model key="Dyna" value="model=16442" />
+				<model key="F" value="model=16469" />
+				<model key="FJ Cruiser" value="model=18807" />
+				<model key="Fortuner" value="model=18737" />
+				<model key="Fun Cruiser" value="model=2055" />
+				<model key="HDJ" value="model=15858" />
+				<model key="Hiace" value="model=14711" />
+				<model key="Hilux" value="model=14789" />
+				<model key="KJ" value="model=15857" />
+				<model key="Land Cruiser" value="model=2056" />
+				<model key="LC" value="model=15729" />
+				<model key="Lite-Ace" value="model=2142" />
+				<model key="MR 2" value="model=2058" />
+				<model key="Paseo" value="model=2059" />
+				<model key="Pick up" value="model=15849" />
+				<model key="Picnic" value="model=2060" />
+				<model key="Previa" value="model=2061" />
+				<model key="Prius" value="model=16516" />
+				<model key="RAV 4" value="model=2143" />
+				<model key="Sequoia" value="model=18583" />
+				<model key="Sienna" value="model=18314" />
+				<model key="Solara" value="model=16443" />
+				<model key="Starlet" value="model=2062" />
+				<model key="Supra" value="model=2063" />
+				<model key="Tercel" value="model=2064" />
+				<model key="Tundra" value="model=16444" />
+				<model key="Yaris" value="model=15663" />
+			</make>
+			<make key="Trabant" value="make=15633">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Trabant" value="model=15749" />
+			</make>
+			<make key="Triumph" value="make=2120">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="Dolomite" value="model=15002" />
+				<model key="Moss" value="model=16479" />
+				<model key="Spitfire" value="model=15633" />
+				<model key="TR3" value="model=16622" />
+				<model key="TR4" value="model=18344" />
+				<model key="TR5" value="model=2121" />
+				<model key="TR6" value="model=2122" />
+				<model key="TR7" value="model=16507" />
+				<model key="TR8" value="model=16508" />
+			</make>
+			<make key="Volkswagen" value="make=74">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="181" value="model=16585" />
+				<model key="Allstar" value="model=18190" />
+				<model key="Anfibio" value="model=2113" />
+				<model key="Blue Star" value="model=18200" />
+				<model key="Bora" value="model=15535" />
+				<model key="Buggy" value="model=15981" />
+				<model key="Bus" value="model=2106" />
+				<model key="Caddy" value="model=15734" />
+				<model key="California" value="model=18575" />
+				<model key="Caravelle" value="model=18210" />
+				<model key="Corrado" value="model=2083" />
+				<model key="Crafter" value="model=18781" />
+				<model key="Eos" value="model=18707" />
+				<model key="Fox" value="model=18599" />
+				<model key="Golf" value="model=2084" />
+				<model key="Iltis" value="model=16584" />
+				<model key="Jetta" value="model=2087" />
+				<model key="Käfer" value="model=2114" />
+				<model key="Karmann Ghia" value="model=16623" />
+				<model key="L80" value="model=16521" />
+				<model key="LT" value="model=15767" />
+				<model key="Lupo" value="model=15534" />
+				<model key="Maggiolino" value="model=15864" />
+				<model key="Multivan" value="model=18220" />
+				<model key="New Beetle" value="model=15381" />
+				<model key="Passat" value="model=2089" />
+				<model key="Phaeton" value="model=18276" />
+				<model key="Polo" value="model=2090" />
+				<model key="Santana" value="model=2091" />
+				<model key="Scirocco" value="model=2092" />
+				<model key="Sharan" value="model=2093" />
+				<model key="Shuttle" value="model=18747" />
+				<model key="T2" value="model=15363" />
+				<model key="T3" value="model=18317" />
+				<model key="T4" value="model=14792" />
+				<model key="T5" value="model=18370" />
+				<model key="Taro" value="model=16520" />
+				<model key="Tiguan" value="model=19063" />
+				<model key="Touareg" value="model=18285" />
+				<model key="Touran" value="model=18329" />
+				<model key="Transporter" value="model=18230" />
+				<model key="Vento" value="model=2094" />
+				<model key="White Star" value="model=18240" />
+			</make>
+			<make key="Volvo" value="make=73">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="240" value="model=2065" />
+				<model key="244" value="model=2138" />
+				<model key="245" value="model=2144" />
+				<model key="262" value="model=18489" />
+				<model key="264" value="model=16580" />
+				<model key="340" value="model=2066" />
+				<model key="360" value="model=2067" />
+				<model key="440" value="model=2068" />
+				<model key="460" value="model=2069" />
+				<model key="480" value="model=2070" />
+				<model key="740" value="model=2071" />
+				<model key="744" value="model=2136" />
+				<model key="745" value="model=16405" />
+				<model key="760" value="model=2072" />
+				<model key="764" value="model=2140" />
+				<model key="780" value="model=2073" />
+				<model key="850" value="model=2074" />
+				<model key="855" value="model=2141" />
+				<model key="940" value="model=2075" />
+				<model key="944" value="model=2137" />
+				<model key="945" value="model=2139" />
+				<model key="960" value="model=2076" />
+				<model key="965" value="model=2123" />
+				<model key="C30" value="model=18912" />
+				<model key="C70" value="model=15236" />
+				<model key="Polar" value="model=15237" />
+				<model key="S40" value="model=2077" />
+				<model key="S60" value="model=16486" />
+				<model key="S70" value="model=2078" />
+				<model key="S80" value="model=15664" />
+				<model key="S90" value="model=2080" />
+				<model key="V40" value="model=2082" />
+				<model key="V50" value="model=18404" />
+				<model key="V70" value="model=2079" />
+				<model key="V90" value="model=2081" />
+				<model key="XC 70" value="model=18328" />
+				<model key="XC 90" value="model=18268" />
+			</make>
+			<make key="Wartburg" value="make=16336">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="WARTBURG" value="model=16567" />
+			</make>
+			<make key="Wiesmann" value="make=16351">
+				<model key="ALL" value="model=" /><model key="" value="model=" />
+				<model key="MF 28" value="model=18331" />
+				<model key="MF 3" value="model=18332" />
+				<model key="MF 30" value="model=18333" />
+			</make>
+		</makemodeldata>
+		<interval>
+			<int key="price" from="pricefrom" to="priceto">
+				<option key="ALL" value="NULL" />
+				<option key="500" value="500" />
+				<option key="1000" value="1000" />
+				<option key="1500" value="1500" />
+				<option key="2000" value="2000" />
+				<option key="2500" value="2500" />
+				<option key="3000" value="3000" />
+				<option key="4000" value="4000" />
+				<option key="5000" value="5000" />
+				<option key="6000" value="6000" />
+				<option key="7000" value="7000" />
+				<option key="8000" value="8000" />
+				<option key="9000" value="9000" />
+				<option key="10000" value="10000" />
+				<option key="12500" value="12500" />
+				<option key="15000" value="15000" />
+				<option key="17500" value="17500" />
+				<option key="20000" value="20000" />
+				<option key="25000" value="25000" />
+				<option key="30000" value="30000" />
+				<option key="40000" value="40000" />
+				<option key="50000" value="50000" />
+				<option key="75000" value="75000" />
+				<option key="100000" value="100000" />
+			</int>
+			<int key="year" from="fregfrom" to="fregto">
+				<option key="ALL" value="NULL" />
+				<option key="2007" value="2007" />
+				<option key="2006" value="2006" />
+				<option key="2005" value="2005" />
+				<option key="2004" value="2004" />
+				<option key="2003" value="2003" />
+				<option key="2002" value="2002" />
+				<option key="2001" value="2001" />
+				<option key="2000" value="2000" />
+				<option key="1999" value="1999" />
+				<option key="1998" value="1998" />
+				<option key="1997" value="1997" />
+				<option key="1996" value="1996" />
+				<option key="1995" value="1995" />
+				<option key="1994" value="1994" />
+				<option key="1993" value="1993" />
+				<option key="1992" value="1992" />
+				<option key="1991" value="1991" />
+				<option key="1990" value="1990" />
+				<option key="1985" value="1985" />
+				<option key="1980" value="1980" />
+				<option key="1975" value="1975" />
+				<option key="1970" value="1970" />
+				<option key="1965" value="1965" />
+				<option key="1960" value="1960" />
+				<option key="1950" value="1950" />
+				<option key="1940" value="1940" />
+				<option key="1930" value="1930" />
+				<option key="1920" value="1920" />
+				<option key="1910" value="1910" />
+			</int>
+			<int key="mileage" from="kmfrom" to="kmto">
+				<option key="ALL" value="NULL" />
+				<option key="km5k" value="5000" />
+				<option key="km10k" value="10000" />
+				<option key="km20k" value="20000" />
+				<option key="km30k" value="30000" />
+				<option key="km40k" value="40000" />
+				<option key="km50k" value="50000" />
+				<option key="km60k" value="60000" />
+				<option key="km70k" value="70000" />
+				<option key="km80k" value="80000" />
+				<option key="km90k" value="90000" />
+				<option key="km100k" value="100000" />
+				<option key="km125k" value="125000" />
+				<option key="km150k" value="150000" />
+				<option key="km175k" value="175000" />
+				<option key="km200k" value="200000" />
+			</int>
+			<int key="power" from="kwfrom" to="kwto">
+				<option key="ALL" value="NULL" />
+				<option key="44kw" value="44" />
+				<option key="55kw" value="55" />
+				<option key="66kw" value="66" />
+				<option key="81kw" value="81" />
+				<option key="92kw" value="92" />
+				<option key="110kw" value="110" />
+				<option key="147kw" value="147" />
+				<option key="184kw" value="184" />
+				<option key="220kw" value="220" />
+				<option key="257kw" value="257" />
+			</int>
+		</interval>
+		<option>
+			<opt key="body" prefix="body">
+				<option key="ALL" value="NULL" />
+				<option key="2/3Tuerer" value="1" />
+				<option key="Cabrio" value="2" />
+				<option key="Coupe" value="3" />
+				<option key="Gelaendewagen" value="4" />
+				<option key="KombiVan" value="5" />
+				<option key="4/5Tuerer" value="6" />
+				<option key="Sonstiges" value="7" />
+				<option key="Bus" value="12" />
+				<option key="Lieferwagen" value="13" />
+			</opt>
+			<opt key="fuel" prefix="fuel">
+				<option key="ALL" value="NULL" />
+				<option key="Benzin" value="B" />
+				<option key="Diesel" value="D" />
+				<option key="Gas" value="G" />
+				<option key="Ethanol" value="M" />
+				<option key="Elektro" value="E" />
+				<option key="Wasserstoff" value="H" />
+			</opt>
+			<opt key="gear" prefix="gear">
+				<option key="ALL" value="NULL" />
+				<option key="Automatik" value="A" />
+				<option key="Schaltgetriebe" value="M" />
+			</opt>
+			<opt key="radius" prefix="rad">
+				<option key="ALL" value="NULL" />
+				<option key="rad5" value="5" />
+				<option key="rad10" value="10" />
+				<option key="rad20" value="20" />
+				<option key="rad50" value="50" />
+				<option key="rad100" value="100" />
+				<option key="rad200" value="200" />
+			</opt>
+		</option>
+		<checkbox>
+			<option key="abs" value="eq=1" />
+			<option key="airbag" value="eq=2" />
+			<option key="alarm" value="eq=18" />
+			<option key="allrad" value="eq=11" />
+			<option key="alufelgen" value="eq=15" />
+			<option key="akupplung" value="eq=20" />
+			<option key="bairbag" value="eq=3" ></option>
+			<option key="bordcomputer" value="eq=41" />
+			<option key="dachtraeger" value="eq=27" />
+			<option key="fensterheber" value="eq=13" />
+			<option key="esp" value="eq=42" />
+			<option key="esitze" value="eq=16" />
+			<option key="klima" value="eq=5" />
+			<option key="leder" value="eq=6" />
+			<option key="navi" value="eq=23" />
+			<option key="nebel" value="eq=19" />
+			<option key="einpark" value="eq=40" />
+			<option key="radio" value="eq=9" />
+			<option key="radiocd" value="eq=10" />
+			<option key="schiebedach" value="eq=4" />
+			<option key="seitenairbag" value="eq=32" />
+			<option key="servo" value="eq=12" />
+			<option key="sitzheizung" value="eq=34" />
+			<option key="standheizung" value="" />
+			<option key="tempomat" value="eq=38" />
+			<option key="traktion" value="eq=31" />
+			<option key="wfsperre" value="eq=26" />
+			<option key="xenon" value="eq=39" />
+			<option key="lock" value="eq=17" />
+		</checkbox>
+	</search>
+</combine>

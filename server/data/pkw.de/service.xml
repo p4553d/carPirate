@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service name="pkw.de">
+<period>1500</period>
+<extract>
+	<regex name="title" group="1">
+		<![CDATA[<div id="detailtop">\s*<h1[^>]*>(.*?)<]]>
+		<prefix>
+			<![CDATA[]]>
+		</prefix>
+		<postfix>
+			<![CDATA[]]>
+		</postfix>
+	</regex>
+	<regex name="price" group="2">
+		<![CDATA[<td  scope="col" class="normal_price" >\s*.*?(<strong|updated).*?EUR\s*([.\d]*)<]]>
+		<prefix>
+			<![CDATA[]]>
+		</prefix>
+		<postfix>
+			<![CDATA[]]>
+		</postfix>
+	</regex>
+	<regex name="image" group="1">
+		<![CDATA[img: "(http://images.pkw.de/.*?\.jpg)"]]>
+		<prefix>
+			<![CDATA[]]>
+		</prefix>
+		<postfix>
+			<![CDATA[]]>
+		</postfix>
+	</regex>
+	<regex name="descr" group="1">
+		<![CDATA[(<ul class="interior_extras">.*?</ul>)]]>
+		<prefix/>
+		<postfix/>
+	</regex>
+	<regex name="address" group="1">
+		<![CDATA[Kontakt</td>.*?(<strong>.*?</td>)]]>
+		<prefix/>
+		<postfix/>
+	</regex>
+	<regex name="year" group="1">
+		<![CDATA[<td>Erstzulassung:</td>\s*<td>.*?(\d\d/\d\d(\d\d)?)<]]>
+		<prefix>
+			<![CDATA[]]>
+		</prefix>
+		<postfix>
+			<![CDATA[]]>
+		</postfix>
+	</regex>
+	<regex name="mileage" group="1">
+		<![CDATA[<td>Kilometerstand:</td>\s*<td>.*?([.\d]* km)<]]>
+		<prefix>
+			<![CDATA[]]>
+		</prefix>
+		<postfix>
+			<![CDATA[]]>
+		</postfix>
+	</regex>
+	<regex name="fuel" group="1">
+		<![CDATA[<td>Kraftstoffart:</td>\s*<td>.*?strong>(.*?)<]]>
+		<prefix>
+			<![CDATA[]]>
+		</prefix>
+		<postfix>
+			<![CDATA[]]>
+		</postfix>
+	</regex>
+	<regex name="power" group="1">
+		<![CDATA[<td>Leistung:</td>\s*<td>.*?strong>\s*(\d* kW)]]>
+		<prefix>
+			<![CDATA[]]>
+		</prefix>
+		<postfix>
+			<![CDATA[]]>
+		</postfix>
+	</regex>
+</extract>
+<parse>
+	<regex><![CDATA[href="(http://pkw.de/suche(.*?)\.html)">\s*<]]></regex>
+	<url group="1">
+		<prefix>
+			<![CDATA[]]>
+		</prefix>
+		<postfix>
+			<![CDATA[]]>
+		</postfix>
+	</url>
+	<hash group="2">
+		<prefix/>
+		<postfix/>
+	</hash>
+</parse>
+</service>

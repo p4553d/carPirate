@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gui.in>
+	<makemodeldata />
+	<options>
+		<!-- From-To options -->
+		<priceFrom />
+		<priceTo />
+		<powerFrom />
+		<powerTo />
+		<yearFrom />
+		<yearTo />
+		<mileageFrom />
+		<mileageTo />
+		
+		<!-- Single Options -->
+		<body />
+		<fuel />
+		<gear />
+		<radius />
+		<bodycolor />
+		<enorm />
+	</options>
+	<table>
+		<field name="make" />
+		<field name="model" />
+		<field name="priceFrom" />
+		<field name="priceTo" />
+		<field name="powerFrom" />
+		<field name="powerTo" />
+		<field name="mileageFrom" />
+		<field name="mileageTo" />
+		<field name="yearFrom" />
+		<field name="yearTo" />
+	</table>
+</gui.in>
