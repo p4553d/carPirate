@@ -5,6 +5,15 @@ Old abandoned project of mine. I make it public on terms of ICS license.
 
 I dont have time and the mood to develop project further, but I comply to make some minor changes or answer questions.
 
+------------
+
+Das ist ein etwas ältere Projekt von mir, ich habe keine Zeit es vernünftig weiter zu führen und zu pflegen. Deswegen gebe ich unter der Bedingungen der ICS Lizenz frei.
+Jeder ist berechtigt die Quellcode zu für sowohl freie als auch kommerzielle Zwecke verwenden.
+
+Miithilfe dieser Software wurde ein Screengrabber realisiert, der mehrere Gebrauchtwagen-Börsen automatisch abgearbeitet hat, und die Ergebnisse aufbereitet und in Form eines Live-Streams gezeigt hat.
+Die Suchanfragen wurden ebenfalls automatische aus einer einheitlicher Maske angelegt.
+
+Die Architektur erlaubt es weitere Workflows zu implementieren, zeitlang betrieb ich auch abgewandelte Version für die Live-Suche auf eBay.
 
 
 License Terms
